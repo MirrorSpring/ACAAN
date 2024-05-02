@@ -122,6 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     decoration: const InputDecoration(
                       hintText: '최댓값',
                     ),
+                    keyboardType: TextInputType.number,
                   ),
                 ),
                 ElevatedButton (
